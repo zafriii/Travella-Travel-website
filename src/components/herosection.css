@@ -1,0 +1,390 @@
+.video video{
+    width: 100% !important;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+  
+    
+}
+
+.hero-text{
+    position: absolute;
+    top: 40%!important;
+    left: 30%;
+    color: white;
+}
+
+.hero-text h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-shadow: 3px 3px 20px #ff99cc,
+      -2px 1px 30px #ff99cc;
+}
+
+.hero-text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 20px #ff99cc,
+      -2px 1px 30px #ff99cc;
+      margin-left: -150px;
+      margin-top: 30px;
+}
+
+.visited{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.visited-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+.visited-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+        
+}
+
+.visited-card-container{
+    margin-left: 60px;
+    background-color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.visited-card-container img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden; 
+    transition: 0.3s;
+}
+
+.visited-card-container img:hover{
+    transform: scale(1.1);
+    
+}
+
+.cntry-name{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.cntry-name h3{
+    margin-left: 20px;
+}
+
+.place h3{
+    margin-left: 10px;
+}
+
+.bud-plc{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.place , .cntry-name{
+    display: flex;
+    
+}
+
+.budget{
+    background-color: #5d7cd1;
+    color: white;
+    border-radius: 50px;
+    margin-left: 40px;
+    padding: 5px 10px;
+}
+
+.place-details{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.popular{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+
+.popular-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.popular-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-image: url("images/hola.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        
+}
+
+.popular-card-container img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden; 
+    transition: 0.3s;
+}
+   
+  .popular-card-container {
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+ 
+  }
+  
+  .popular-card-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .popular-image-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cntry {
+    padding: 20px;
+  }
+  
+  .cntry-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .bud-plc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .place h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .budget p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+ .toplans, .toblog{
+    text-decoration: none;
+  }
+
+ 
+
+ .budget:hover{
+    background-color: #333333;
+  }
+
+  
+   .popular-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .popular-card-container {
+    
+    transition: all 0.5s ease;
+    /* flex: 0 0 calc(100% / 5); */
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+
+  
+ 
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    background-color: #5d7cd1;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+   
+  }
+  
+  .prev {
+    left: 0;
+    /* margin-left: 420px; */
+  
+    
+  }
+  
+  .next {
+    right: 0;
+    /* margin-right:420px ; */
+  } 
+   
+
+.stars{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+@media (max-width:1920px) {
+  .hero-text{
+    position: absolute;
+    top: 40%!important;
+    left: 37%;
+    color: white;
+}
+}
+
+
+@media (max-width:1400px) {
+  .hero-text{
+    position: absolute;
+    top: 40%!important;
+    left: 30%;
+    color: white;
+}
+}
+
+
+@media (max-width:900px) {
+  .hero-text{
+    position: absolute;
+    top: 32%!important;
+    left: 30%;
+   
+}
+
+.hero-text h2{
+ 
+  font-size: 30px;
+  
+}
+
+.hero-text p{
+ 
+    margin-left: -110px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.visited-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+      
+}
+
+.visited-card-container{
+  margin-left: -20px;
+  margin-top: 40px;
+}
+
+}
+
+@media (max-width:600px) {
+  .hero-text{
+    position: absolute;
+    top: 25%!important;
+    left: 30%;
+    font-size: 20px;
+}
+
+.hero-text h2{
+ 
+  font-size: 20px;
+  
+}
+
+.hero-text p{
+ 
+    font-size: 15px;
+    margin-left: -110px;
+    margin-top: 30px;
+}
+
+.visited-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+      
+}
+
+.visited-card-container{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+}
+
+@media (max-width:430px) {
+  .hero-text{
+    position: absolute;
+    top: 18%!important;
+    left: 30%;
+    font-size: 20px;
+}
+
+ 
+}
+
+
